@@ -89,7 +89,7 @@ const TextForm = ({ mode }) => {
                 <i className={`bi ${icon} me-1`}></i>{label}
               </button>
             ))}
-            <button className={`btn ${copied ? "btn-success" : "btn-success"}`} onClick={handleCopyClick} disabled={text.length === 0}>
+            <button className="btn btn-success" onClick={handleCopyClick} disabled={text.length === 0}>
               <i className={`bi ${copied ? "bi-check-lg" : "bi-clipboard-check-fill"} me-1`}></i>
               {copied ? "Copied!" : "Copy"}
             </button>

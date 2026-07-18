@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
@@ -14,11 +14,6 @@ function App() {
   const [showInfo, setShowInfo]       = useState(false);  // Modal 2
 
   const isDark = mode === "dark";
-
-  // Show modal 1 on first load only
-  useEffect(() => {
-    setShowWelcome(true);
-  }, []);
 
   function handleWelcomeNext() {
     setShowWelcome(false);

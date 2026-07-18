@@ -2,7 +2,6 @@ import React from "react";
 
 const About = ({ mode }) => {
   const isDark = mode === "dark";
-  const cardCls = `card border-0 rounded-4 h-100 shadow-sm ${isDark ? "bg-dark-card" : ""}`;
 
   const values = [
     { icon: "bi-lightning-charge-fill", color: "text-warning", bg: "#fffbeb", darkBg: "#451a03", title: "Fast",       desc: "Instant processing, zero delay."   },

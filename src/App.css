@@ -215,65 +215,11 @@ textarea::-webkit-scrollbar-track { background: transparent; }
   padding: 8px 16px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
-.tf-btn {
-  border-radius: 10px;
-  font-size: 13px;
-  font-weight: 600;
-}
 .btn:hover:not(:disabled) {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; }
-
-/* ===========================
-   STAT CARDS
-=========================== */
-.tf-stat-card {
-  background: var(--stat-bg, #eff6ff);
-  border-radius: 16px;
-  padding: 18px 14px;
-  text-align: center;
-  transition: transform 0.25s, box-shadow 0.25s;
-  border: 1.5px solid rgba(0,0,0,0.04);
-}
-.tf-stat-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0,0,0,0.1);
-}
-.tf-stat-dark {
-  border-color: rgba(255,255,255,0.06);
-}
-.tf-stat-icon-wrap {
-  font-size: 26px;
-  margin-bottom: 8px;
-}
-.tf-stat-value {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1;
-  margin-bottom: 4px;
-}
-.tf-stat-label {
-  font-size: 12px;
-  color: #6b7280;
-  font-weight: 500;
-}
-
-/* ===========================
-   STAT CARDS (legacy)
-=========================== */
-.stat-card {
-  border: none;
-  border-radius: 16px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
-  transition: transform 0.25s, box-shadow 0.25s;
-}
-.stat-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
-}
-.stat-card .card-body h3 { font-size: 30px; font-weight: 700; }
 
 /* ===========================
    CARD
@@ -283,30 +229,10 @@ textarea::-webkit-scrollbar-track { background: transparent; }
   border-radius: 16px;
   box-shadow: 0 4px 18px rgba(0,0,0,0.07);
 }
-.dark-card {
-  background: #1e1e1e !important;
-  color: #fff;
-}
 
 /* ===========================
-   PREVIEW CARD
+   PREVIEW
 =========================== */
-.tf-preview-card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 18px 20px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
-  border: 1.5px solid #e5e7eb;
-}
-.tf-preview-dark {
-  background: #1a1a2e !important;
-  border-color: #334155;
-}
-.tf-preview-header {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-}
 .tf-preview-body {
   max-height: 240px;
   overflow-y: auto;
@@ -316,7 +242,6 @@ textarea::-webkit-scrollbar-track { background: transparent; }
   font-size: 14px;
   line-height: 1.75;
 }
-
 .tf-preview-body::-webkit-scrollbar { width: 4px; }
 .tf-preview-body::-webkit-scrollbar-thumb { background: #2563eb; border-radius: 10px; }
 
@@ -325,20 +250,6 @@ textarea::-webkit-scrollbar-track { background: transparent; }
 =========================== */
 .inner-page {
   padding: 40px 32px 56px;
-}
-
-/* Hero icon — same as TextForm */
-.tf-hero-icon {
-  width: 68px;
-  height: 68px;
-  border-radius: 20px;
-  background: linear-gradient(135deg, #2563eb, #6d28d9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  color: #fff;
-  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
 }
 
 /* ===========================
